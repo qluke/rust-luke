@@ -28,16 +28,21 @@
 
 ## 1、Rust 程序设计语言
 
+- [x] Rust 启动
+- [x] 安装 Rust 工具链 Rustup
+- [x] 安装 Visual Studio Code
+- [x] 安装如下拓展：rust、rust-Analyzer、Rust Extension Pack、Rust Syntax、Rust Extension Pack、 CodeLLDB
+
 ## 1.1、初学 Rust 语法和语言特性
 
 - [x] 通用编程概念
 - [x] 所有权机制
-- [ ] 结构体
-- [ ] 枚举和模式匹配
-- [ ] 包、Crate
-- [ ] 常见集合
-- [ ] 错误处理
-- [ ] 泛型、trait、生命周期
+- [x] 结构体
+- [x] 枚举和模式匹配
+- [x] 包、Crate
+- [x] 常见集合
+- [x] 错误处理
+- [x] 泛型、trait、生命周期
 
 ## 1.2、Rust 进阶实战
 
