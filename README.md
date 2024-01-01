@@ -8,7 +8,7 @@
 >
 > Build in pubic: 使用 git 提交与备份学习进度、边写代码边打草稿做笔记。
 >
-> Justintime: 及时学习解决问题、挑选适当难度的题目、项目驱动学习。
+> Just in time: 及时学习解决问题、挑选适当难度的题目、项目驱动学习。
 >
 > Follow your curiosity: 多看多练。
 >
