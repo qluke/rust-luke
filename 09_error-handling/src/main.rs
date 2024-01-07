@@ -2,6 +2,7 @@ use std::io;
 use std::io::ErrorKind;
 use std::io::Read;
 use std::fs::File;
+use std::fs;
 
 fn main() {
     // 示例 9-1：尝试访问超越 vector 结尾的元素，这会造成 panic!

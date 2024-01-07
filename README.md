@@ -1,24 +1,26 @@
 # 初学 Rust 
 
-背景: A backend developer 记录他的 Rust 的学习历程，开始学习时间为 **2023.12.30**，计划抽出非工作时间，连续学习 3个月，以下的学习资源均从网上寻找而来，为本人真实使用过，以下学习方式不一定直接适合其他人。
+背景: A backend developer 记录他 Rust 学习的历程，开始学习时间为 **2023.12.30**，利用互联网上的免费资源，抽出非工作时间进行学习。
 
 ## 学习策略
 
-> Discover the map: 参考 [Rust Developer Step by step guide to becoming a Rust developer in 2023](https://roadmap.sh/rust) 网站上列举的规划。
+> Discover the map: 参考 [Rust Developer Step by step guide to becoming a Rust developer in 2023](https://roadmap.sh/rust) 网站上列举的学习路线规划，借鉴 10x 程序大佬的工作思维和方法论。
 >
-> Build in pubic: 使用 git 提交与备份学习进度、边写代码边打草稿做笔记。
+> Build in pubic: 使用 git 提交与备份学习进度、主动失误。
 >
-> Just in time: 及时学习解决问题、挑选适当难度的题目、项目驱动学习。
+> Just in time: 及时学习、挑选适当难度的题目解决，使用代码量作为北极星指标。
 >
-> Follow your curiosity: 多看多练。
+> Follow your curiosity: 跟随好奇心、多看多动手、项目实战驱动学习。
 >
-> Periodic review: 整理出一份有一定参考价值、值得未来回顾的学习路线。
+> Periodic review: 逐步整理出有参考价值、值得回顾的学习路线。
 
 ## 学习资源
 
-[Rust 中文文档 | Rust 文档网](https://rustwiki.org/docs/)
+[Rust 中文文档](https://rustwiki.org/docs/)
 
-[Rust 文档网-  [ ] Rust 官方文档中文教程](https://www.rustwiki.org.cn)
+[Rust 官方文档中文教程](https://www.rustwiki.org.cn)
+
+[Rust 教程](https://www.rust-lang.org/zh-CN/learn)
 
 [Rust 语言圣经 20.2k star](https://github.com/sunface/rustcourse)
 
