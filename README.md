@@ -4,7 +4,7 @@
 
 ## 学习策略
 
-> Dicover the map: 参考 [Rust Developer Step by step guide to becoming a Rust developer in 2023](https://roadmap.sh/rust) 网站上列举的规划。
+> Discover the map: 参考 [Rust Developer Step by step guide to becoming a Rust developer in 2023](https://roadmap.sh/rust) 网站上列举的规划。
 >
 > Build in pubic: 使用 git 提交与备份学习进度、边写代码边打草稿做笔记。
 >

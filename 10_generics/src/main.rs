@@ -1,3 +1,5 @@
+use std::fmt::Display;
+
 // 示例 10-4：两个函数，不同点只是名称和签名类型
 fn largest_i32(list: &[i32]) -> i32 {
     let mut largest = list[0];
@@ -70,6 +72,14 @@ impl Point2<f32> {
         (self.x.powi(2) + self.y.powi(2)).sqrt()
     }
 }
+// 示例 10-22：longest 函数定义指定了签名中所有的引用必须有相同的生命周期 'a
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }
+}
 fn main() {
     let number_list = vec![34, 50, 25, 100, 65];
     let char_list = vec!['y', 'm', 'a', 'q'];
@@ -125,6 +135,30 @@ fn main() {
     };
     // 调用默认方法
     println!("1 new tweet: {}", tweet.summarize3());
+
+    // 示例 10-23：通过拥有不同的具体生命周期的 String 值调用 longest 函数
+    let string1 = String::from("long string is long");
+    {
+        let string2 = String::from("xyz");
+        let result = longest(string1.as_str(), string2.as_str());
+        println!("The longest string is {}", result);
+    }
+    // 生命周期省略规则
+    // 第一条规则是每一个是引用的参数都有它自己的生命周期参数。
+    // 第二条规则是如果只有一个输入生命周期参数，那么它被赋予所有输出生命周期参数。
+    // 第三条规则是如果方法有多个输入生命周期参数并且其中一个参数是 &self 或 &mut self， 那么所有输出生命周期参数被赋予 self 的生命周期。
+    
+    // 在同一函数中指定泛型类型参数、trait bounds 和生命周期的语法
+    fn longest_with_an_announcement<'a, T>(x: &'a str, y: &'a str, ann: T) -> &'a str
+    where T: Display
+    {
+        println!("Announcement! {}", ann);
+        if x.len() > y.len() {
+            x
+        } else {
+            y
+        }
+    }
 }
 
 // 类似 Java 里的接口
