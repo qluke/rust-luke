@@ -57,10 +57,10 @@ mod tests {
     // 8、不希望测试并行运行，或者想要更加精确的控制线程的数量，可以传递 --test-threads 参数
     // cargo test -- --test-threads=1
 
-    // 显示函数输出
+    // 9、显示函数输出
     // cargo test -- --show-output
 
-    // 通过指定名字来运行部分测试（单个、多个）
+    // 10、通过指定名字来运行部分测试（单个、多个）
     // cargo test not_eq_it_works
     // cargo test it_works
 }
@@ -96,4 +96,12 @@ impl Guess {
             value
         }
     }
+}
+
+pub fn add_two(a: i32) -> i32 {
+    internal_adder(a, 2)
+}
+
+fn internal_adder(a: i32, b: i32) -> i32 {
+    a + b
 }
