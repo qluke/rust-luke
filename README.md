@@ -33,7 +33,7 @@
 - [x] Rust 启动
 - [x] 安装 Rust 工具链 Rustup
 - [x] 安装 Visual Studio Code
-- [x] 安装如下拓展：rust、rust-Analyzer、Rust Extension Pack、Rust Syntax、Rust Extension Pack、 CodeLLDB
+- [x] 安装如下拓展：rust、rust-Analyzer、Rust Extension Pack、Rust Syntax、Rust Extension Pack、CodeLLDB
 
 ## 1.1、初学 Rust 语法和语言特性
 
@@ -48,8 +48,25 @@
 
 ## 1.2、Rust 进阶实战
 
+### 1.2.1、一个简单的全栈应用
+
+包含技术栈如下：
+
+- Next.js 14 (TypeScript)
+- Tailwind CSS
+- Rust (no framework, Serde for serialization)
+- PostgreSQL
+- Docker
+- Docker Compose
+
+文章地址：[Build a full stack app with Rust, Next.js and Docker - DEV Community](https://dev.to/francescoxx/build-a-full-stack-app-with-rust-nextjs-and-docker-436h)
+
+项目地址：[GitHub - FrancescoXX/fullstack-rust-nextjs](https://github.com/FrancescoXX/fullstack-rust-nextjs)
+
+
+## 2、通过例子学 Rust
+
+
 - [ ] 实现一个多线程web服务器
 - [ ] 实现一个简单redis
 - [ ] 实现一个操作系统
-
-## 2、通过例子学 Rust
